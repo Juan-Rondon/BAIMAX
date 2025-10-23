@@ -1,0 +1,330 @@
+{
+  "version": "1.0",
+  "ultima_actualizacion": "2025-10-23T09:18:58.587992",
+  "ciudades_colombia": {
+    "bogota": {
+      "nombre": "Bogotá D.C.",
+      "poblacion": 7181469,
+      "departamento": "Cundinamarca",
+      "altitud": 2640,
+      "clima": "Frío de montaña",
+      "problemas_comunes": [
+        "Enfermedades respiratorias por altura",
+        "Contaminación del aire",
+        "Estrés urbano",
+        "Problemas cardiovasculares"
+      ],
+      "hospitales_principales": [
+        "Hospital Universitario San Ignacio",
+        "Fundación Santa Fe de Bogotá",
+        "Hospital El Tunal",
+        "Hospital de La Misericordia"
+      ],
+      "eps_principales": [
+        "Compensar EPS",
+        "Sanitas EPS",
+        "Nueva EPS",
+        "Salud Total EPS"
+      ],
+      "zonas_criticas": [
+        "Ciudad Bolívar",
+        "Bosa",
+        "Kennedy",
+        "Suba"
+      ]
+    },
+    "medellin": {
+      "nombre": "Medellín",
+      "poblacion": 2569846,
+      "departamento": "Antioquia",
+      "altitud": 1495,
+      "clima": "Templado",
+      "problemas_comunes": [
+        "Dengue y enfermedades tropicales",
+        "Violencia urbana",
+        "Drogadicción",
+        "Embarazos adolescentes"
+      ],
+      "hospitales_principales": [
+        "Hospital Pablo Tobón Uribe",
+        "Clínica Las Vegas",
+        "Hospital General de Medellín",
+        "Clínica CES"
+      ],
+      "eps_principales": [
+        "Sura EPS",
+        "Coomeva EPS",
+        "Nueva EPS",
+        "Sanitas EPS"
+      ],
+      "zonas_criticas": [
+        "Comuna 1 - Popular",
+        "Comuna 13 - San Javier",
+        "Comuna 3 - Manrique",
+        "Comuna 8 - Villa Hermosa"
+      ]
+    },
+    "cali": {
+      "nombre": "Santiago de Cali",
+      "poblacion": 2252616,
+      "departamento": "Valle del Cauca",
+      "altitud": 1018,
+      "clima": "Tropical seco",
+      "problemas_comunes": [
+        "Enfermedades tropicales",
+        "Deshidratación por calor",
+        "Dengue y chikungunya",
+        "Violencia intrafamiliar"
+      ],
+      "hospitales_principales": [
+        "Fundación Valle del Lili",
+        "Hospital Universitario del Valle",
+        "Clínica Imbanaco",
+        "Hospital San Juan de Dios"
+      ],
+      "eps_principales": [
+        "Emssanar EPS",
+        "Sura EPS",
+        "Nueva EPS",
+        "Sanitas EPS"
+      ],
+      "zonas_criticas": [
+        "Aguablanca",
+        "Ladera",
+        "Siloé",
+        "Terrón Colorado"
+      ]
+    },
+    "barranquilla": {
+      "nombre": "Barranquilla",
+      "poblacion": 1274250,
+      "departamento": "Atlántico",
+      "altitud": 18,
+      "clima": "Tropical cálido",
+      "problemas_comunes": [
+        "Enfermedades tropicales",
+        "Deshidratación severa",
+        "Infecciones intestinales",
+        "Problemas dermatológicos"
+      ],
+      "hospitales_principales": [
+        "Clínica Portoazul",
+        "Hospital Universidad del Norte",
+        "Clínica Bautista",
+        "Hospital Niño Jesús"
+      ],
+      "eps_principales": [
+        "Coosalud EPS",
+        "Nueva EPS",
+        "Sanitas EPS",
+        "Sura EPS"
+      ]
+    }
+  },
+  "casos_salud": {
+    "enfermedades_respiratorias": {
+      "sintomas": [
+        "tos",
+        "fiebre",
+        "dificultad respirar",
+        "dolor pecho"
+      ],
+      "causas_comunes": [
+        "contaminación",
+        "altura",
+        "clima frío",
+        "virus"
+      ],
+      "ciudades_afectadas": [
+        "bogota",
+        "tunja",
+        "pasto"
+      ],
+      "protocolo": "respiratorio_general",
+      "gravedad": "MODERADO",
+      "especialista": "neumólogo"
+    },
+    "dengue": {
+      "sintomas": [
+        "fiebre alta",
+        "dolor cabeza",
+        "dolor muscular",
+        "manchas rojas"
+      ],
+      "causas_comunes": [
+        "mosquito aedes",
+        "aguas estancadas",
+        "clima tropical"
+      ],
+      "ciudades_afectadas": [
+        "cali",
+        "medellin",
+        "barranquilla",
+        "cartagena"
+      ],
+      "protocolo": "enfermedades_tropicales",
+      "gravedad": "GRAVE",
+      "especialista": "infectólogo"
+    },
+    "hipertension": {
+      "sintomas": [
+        "dolor cabeza",
+        "mareos",
+        "vision borrosa",
+        "fatiga"
+      ],
+      "causas_comunes": [
+        "estrés",
+        "mala alimentación",
+        "sedentarismo"
+      ],
+      "ciudades_afectadas": [
+        "bogota",
+        "medellin",
+        "cali",
+        "bucaramanga"
+      ],
+      "protocolo": "cardiovascular",
+      "gravedad": "GRAVE",
+      "especialista": "cardiólogo"
+    },
+    "gastroenteritis": {
+      "sintomas": [
+        "diarrea",
+        "vómito",
+        "dolor abdominal",
+        "deshidratación"
+      ],
+      "causas_comunes": [
+        "agua contaminada",
+        "alimentos",
+        "virus",
+        "bacterias"
+      ],
+      "ciudades_afectadas": [
+        "barranquilla",
+        "cartagena",
+        "santa_marta"
+      ],
+      "protocolo": "gastrointestinal",
+      "gravedad": "MODERADO",
+      "especialista": "gastroenterólogo"
+    },
+    "depresion": {
+      "sintomas": [
+        "tristeza",
+        "fatiga",
+        "insomnio",
+        "pérdida apetito"
+      ],
+      "causas_comunes": [
+        "estrés",
+        "problemas sociales",
+        "violencia",
+        "desempleo"
+      ],
+      "ciudades_afectadas": [
+        "bogota",
+        "medellin",
+        "cali",
+        "cucuta"
+      ],
+      "protocolo": "salud_mental",
+      "gravedad": "GRAVE",
+      "especialista": "psiquiatra"
+    }
+  },
+  "protocolos_atencion": {
+    "respiratorio_general": {
+      "pasos": [
+        "1. Evaluar saturación de oxígeno",
+        "2. Verificar temperatura corporal",
+        "3. Escuchar pulmones",
+        "4. Ordenar radiografía si es necesario",
+        "5. Prescribir tratamiento según síntomas"
+      ],
+      "tiempo_atencion": "30 minutos",
+      "nivel_urgencia": "MODERADO"
+    },
+    "enfermedades_tropicales": {
+      "pasos": [
+        "1. Toma de signos vitales urgente",
+        "2. Examen físico completo",
+        "3. Prueba rápida dengue/chikungunya",
+        "4. Hidratación inmediata",
+        "5. Monitoreo 24 horas si es necesario"
+      ],
+      "tiempo_atencion": "45 minutos",
+      "nivel_urgencia": "GRAVE"
+    },
+    "salud_mental": {
+      "pasos": [
+        "1. Evaluación psicológica inicial",
+        "2. Identificar factores de riesgo",
+        "3. Aplicar escalas de depresión/ansiedad",
+        "4. Plan de tratamiento psicoterapéutico",
+        "5. Seguimiento programado"
+      ],
+      "tiempo_atencion": "60 minutos",
+      "nivel_urgencia": "GRAVE"
+    }
+  },
+  "entidades_salud": {
+    "emergencias": {
+      "telefono": "123",
+      "descripcion": "Número único de emergencias Colombia"
+    },
+    "linea_salud": {
+      "telefono": "018000-910097",
+      "descripcion": "Línea gratuita del Ministerio de Salud"
+    },
+    "salud_mental": {
+      "telefono": "106",
+      "descripcion": "Línea Nacional de Salud Mental"
+    },
+    "violencia_intrafamiliar": {
+      "telefono": "155",
+      "descripcion": "Línea Nacional contra Violencia Intrafamiliar"
+    }
+  },
+  "sintomas_enfermedades": {
+    "fiebre": [
+      "dengue",
+      "gripa",
+      "infección",
+      "covid19"
+    ],
+    "tos": [
+      "enfermedades_respiratorias",
+      "covid19",
+      "bronquitis"
+    ],
+    "dolor_cabeza": [
+      "hipertension",
+      "dengue",
+      "migraña",
+      "estrés"
+    ],
+    "diarrea": [
+      "gastroenteritis",
+      "intoxicación",
+      "virus"
+    ],
+    "mareos": [
+      "hipertension",
+      "anemia",
+      "deshidratación"
+    ],
+    "fatiga": [
+      "depresion",
+      "anemia",
+      "estrés",
+      "hipertension"
+    ],
+    "dolor_pecho": [
+      "enfermedades_respiratorias",
+      "problemas_cardiacos",
+      "ansiedad"
+    ]
+  }
+}

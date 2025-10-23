@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16f84d4e43b1d3763168c85ad1bb2e56 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_16f84d4e43b1d3763168c85ad1bb2e56" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_16f84d4e43b1d3763168c85ad1bb2e56 = L.map(
+                "map_16f84d4e43b1d3763168c85ad1bb2e56",
+                {
+                    center: [4.5709, -74.2973],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d146507eccd8ecfd741465bc426eec09 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d146507eccd8ecfd741465bc426eec09.addTo(map_16f84d4e43b1d3763168c85ad1bb2e56);
+        
+    
+            var marker_cluster_f526c5c74ae3bb729d7361884d3686a6 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_be7f6550879d54f4c009536a2d7952ed = L.marker(
+                [10.9685, -74.7813],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_d0fd7dd51d8656f623d7a847cc4c9619 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_082d7507bcbdb034414ac70cefb564c5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_485ae8a39408f780252fd04f71437e95 = $(`<div id="html_485ae8a39408f780252fd04f71437e95" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Barranquilla</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 480</p>                     <p>🟠 Moderados: 4</p>                     <p>📈 Total: 949</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • las basuras no se recogen a tiempo.: 109<br>• faltan médicos en el centro de salud.: 106<br>• queremos más presencia policial.: 98<br>• la contaminación del río está aumentando.: 98<br>• no hay suficientes escuelas públicas.: 85                 </div>                 </div>`)[0];
+                popup_082d7507bcbdb034414ac70cefb564c5.setContent(html_485ae8a39408f780252fd04f71437e95);
+            
+        
+
+        marker_be7f6550879d54f4c009536a2d7952ed.bindPopup(popup_082d7507bcbdb034414ac70cefb564c5)
+        ;
+
+        
+    
+    
+            marker_be7f6550879d54f4c009536a2d7952ed.bindTooltip(
+                `<div>
+                     🔴 Barranquilla (949 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_be7f6550879d54f4c009536a2d7952ed.setIcon(icon_d0fd7dd51d8656f623d7a847cc4c9619);
+            
+    
+            var marker_bb44ed39cb241a280b7ea709bdaecf24 = L.marker(
+                [4.711, -74.0721],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_4a734d50b62ae11faadec0c2a5d6cddb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d98daab87e619f6bef5b98e9c2befd0c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f4d3dcdadc931f644027bd3e2f2ceef6 = $(`<div id="html_f4d3dcdadc931f644027bd3e2f2ceef6" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Bogotá</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 579</p>                     <p>🟠 Moderados: 5</p>                     <p>📈 Total: 1164</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • necesitamos más acceso a internet en la zona.: 133<br>• las calles están muy oscuras y peligrosas.: 118<br>• hay problemas con la recolección de basura.: 115<br>• las basuras no se recogen a tiempo.: 111<br>• la contaminación del río está aumentando.: 106                 </div>                 </div>`)[0];
+                popup_d98daab87e619f6bef5b98e9c2befd0c.setContent(html_f4d3dcdadc931f644027bd3e2f2ceef6);
+            
+        
+
+        marker_bb44ed39cb241a280b7ea709bdaecf24.bindPopup(popup_d98daab87e619f6bef5b98e9c2befd0c)
+        ;
+
+        
+    
+    
+            marker_bb44ed39cb241a280b7ea709bdaecf24.bindTooltip(
+                `<div>
+                     🔴 Bogotá (1164 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bb44ed39cb241a280b7ea709bdaecf24.setIcon(icon_4a734d50b62ae11faadec0c2a5d6cddb);
+            
+    
+            var marker_5af9c55e9092f55f7b4b76d691f187eb = L.marker(
+                [7.119, -73.1198],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_7f6158175cce656470e5c929b8a6f7bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ec74f37a85a272b832f4b8948221af1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a1eee4b8a75c3d2a4298b16a2c36104f = $(`<div id="html_a1eee4b8a75c3d2a4298b16a2c36104f" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Bucaramanga</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 504</p>                     <p>🟠 Moderados: 0</p>                     <p>📈 Total: 985</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • las calles están muy oscuras y peligrosas.: 103<br>• las basuras no se recogen a tiempo.: 97<br>• necesitamos más acceso a internet en la zona.: 97<br>• no tenemos centros culturales ni bibliotecas.: 95<br>• queremos más presencia policial.: 94                 </div>                 </div>`)[0];
+                popup_7ec74f37a85a272b832f4b8948221af1.setContent(html_a1eee4b8a75c3d2a4298b16a2c36104f);
+            
+        
+
+        marker_5af9c55e9092f55f7b4b76d691f187eb.bindPopup(popup_7ec74f37a85a272b832f4b8948221af1)
+        ;
+
+        
+    
+    
+            marker_5af9c55e9092f55f7b4b76d691f187eb.bindTooltip(
+                `<div>
+                     🔴 Bucaramanga (985 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5af9c55e9092f55f7b4b76d691f187eb.setIcon(icon_7f6158175cce656470e5c929b8a6f7bb);
+            
+    
+            var marker_36ed2bc96cd83cb1db726cc42383d4ec = L.marker(
+                [3.4516, -76.532],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_1ee5638627e107f6ce23b5a658496350 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7304e90f960818a663a995f311387079 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_42e209650f1fef8ff9581187c996a962 = $(`<div id="html_42e209650f1fef8ff9581187c996a962" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Cali</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 471</p>                     <p>🟠 Moderados: 4</p>                     <p>📈 Total: 971</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • las basuras no se recogen a tiempo.: 105<br>• las calles están muy oscuras y peligrosas.: 102<br>• no hay suficientes escuelas públicas.: 95<br>• la contaminación del río está aumentando.: 94<br>• hay problemas con la recolección de basura.: 91                 </div>                 </div>`)[0];
+                popup_7304e90f960818a663a995f311387079.setContent(html_42e209650f1fef8ff9581187c996a962);
+            
+        
+
+        marker_36ed2bc96cd83cb1db726cc42383d4ec.bindPopup(popup_7304e90f960818a663a995f311387079)
+        ;
+
+        
+    
+    
+            marker_36ed2bc96cd83cb1db726cc42383d4ec.bindTooltip(
+                `<div>
+                     🔴 Cali (971 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36ed2bc96cd83cb1db726cc42383d4ec.setIcon(icon_1ee5638627e107f6ce23b5a658496350);
+            
+    
+            var marker_ad0a0fc90f19d5d9312224719507b187 = L.marker(
+                [10.391, -75.4794],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_a9734d6588100846bb5a71997b108f83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b63f5f47de01d114338963ef4e204b3d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1dad15ea62fa41b9c56c18204180f445 = $(`<div id="html_1dad15ea62fa41b9c56c18204180f445" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Cartagena</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 485</p>                     <p>🟠 Moderados: 4</p>                     <p>📈 Total: 991</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • necesitamos más acceso a internet en la zona.: 106<br>• las calles están muy oscuras y peligrosas.: 99<br>• falta agua potable en varias casas.: 99<br>• no hay suficientes escuelas públicas.: 97<br>• faltan médicos en el centro de salud.: 91                 </div>                 </div>`)[0];
+                popup_b63f5f47de01d114338963ef4e204b3d.setContent(html_1dad15ea62fa41b9c56c18204180f445);
+            
+        
+
+        marker_ad0a0fc90f19d5d9312224719507b187.bindPopup(popup_b63f5f47de01d114338963ef4e204b3d)
+        ;
+
+        
+    
+    
+            marker_ad0a0fc90f19d5d9312224719507b187.bindTooltip(
+                `<div>
+                     🔴 Cartagena (991 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ad0a0fc90f19d5d9312224719507b187.setIcon(icon_a9734d6588100846bb5a71997b108f83);
+            
+    
+            var marker_9707b9868a433b8984010e8da8f2d34b = L.marker(
+                [7.889, -72.4967],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_3de052480487a4e0e6d533e4fe66fb96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_156faf4c32b399a233aa5438307d1a8d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_54b629a25694b794a11a5c865c1a2a89 = $(`<div id="html_54b629a25694b794a11a5c865c1a2a89" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Cúcuta</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 469</p>                     <p>🟠 Moderados: 0</p>                     <p>📈 Total: 966</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • falta agua potable en varias casas.: 101<br>• queremos más presencia policial.: 101<br>• las basuras no se recogen a tiempo.: 97<br>• hay problemas con la recolección de basura.: 95<br>• la contaminación del río está aumentando.: 90                 </div>                 </div>`)[0];
+                popup_156faf4c32b399a233aa5438307d1a8d.setContent(html_54b629a25694b794a11a5c865c1a2a89);
+            
+        
+
+        marker_9707b9868a433b8984010e8da8f2d34b.bindPopup(popup_156faf4c32b399a233aa5438307d1a8d)
+        ;
+
+        
+    
+    
+            marker_9707b9868a433b8984010e8da8f2d34b.bindTooltip(
+                `<div>
+                     🔴 Cúcuta (966 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9707b9868a433b8984010e8da8f2d34b.setIcon(icon_3de052480487a4e0e6d533e4fe66fb96);
+            
+    
+            var marker_81648f51324bb199e43b5444e01f97ba = L.marker(
+                [5.07, -75.5138],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_c41000dd61dbd820e4ae3a3079dc20a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c88e443e8f1e01e78808eb96e68cf937 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_54c08690712db469c9ea092872c62b51 = $(`<div id="html_54c08690712db469c9ea092872c62b51" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Manizales</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 514</p>                     <p>🟠 Moderados: 0</p>                     <p>📈 Total: 1013</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • las basuras no se recogen a tiempo.: 104<br>• no hay suficientes escuelas públicas.: 102<br>• no tenemos centros culturales ni bibliotecas.: 101<br>• la contaminación del río está aumentando.: 101<br>• hay problemas con la recolección de basura.: 93                 </div>                 </div>`)[0];
+                popup_c88e443e8f1e01e78808eb96e68cf937.setContent(html_54c08690712db469c9ea092872c62b51);
+            
+        
+
+        marker_81648f51324bb199e43b5444e01f97ba.bindPopup(popup_c88e443e8f1e01e78808eb96e68cf937)
+        ;
+
+        
+    
+    
+            marker_81648f51324bb199e43b5444e01f97ba.bindTooltip(
+                `<div>
+                     🔴 Manizales (1013 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_81648f51324bb199e43b5444e01f97ba.setIcon(icon_c41000dd61dbd820e4ae3a3079dc20a5);
+            
+    
+            var marker_954027e30c4665dbb1b8d76ac0a239b5 = L.marker(
+                [6.2442, -75.5812],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_cf0141172ba06dd73b150345d741d335 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b571cb91a255aa83b86e0a2dcb57ae7e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_45ede397ee9d83322c9ba9b2f1cc6842 = $(`<div id="html_45ede397ee9d83322c9ba9b2f1cc6842" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Medellín</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 507</p>                     <p>🟠 Moderados: 4</p>                     <p>📈 Total: 1014</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • queremos más presencia policial.: 108<br>• necesitamos más acceso a internet en la zona.: 102<br>• no hay suficientes escuelas públicas.: 99<br>• las basuras no se recogen a tiempo.: 99<br>• no tenemos centros culturales ni bibliotecas.: 95                 </div>                 </div>`)[0];
+                popup_b571cb91a255aa83b86e0a2dcb57ae7e.setContent(html_45ede397ee9d83322c9ba9b2f1cc6842);
+            
+        
+
+        marker_954027e30c4665dbb1b8d76ac0a239b5.bindPopup(popup_b571cb91a255aa83b86e0a2dcb57ae7e)
+        ;
+
+        
+    
+    
+            marker_954027e30c4665dbb1b8d76ac0a239b5.bindTooltip(
+                `<div>
+                     🔴 Medellín (1014 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_954027e30c4665dbb1b8d76ac0a239b5.setIcon(icon_cf0141172ba06dd73b150345d741d335);
+            
+    
+            var marker_836dc0d96ff3717cc62dbbfad3ceb46e = L.marker(
+                [4.8133, -75.6961],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_a8f1b91c6a1ab0ab2c45673830c4baf9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae7f228d76fb4d1aa771e1e6c6d44858 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d3f547b305f3918f0e6ec0c50a9424a2 = $(`<div id="html_d3f547b305f3918f0e6ec0c50a9424a2" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Pereira</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 471</p>                     <p>🟠 Moderados: 0</p>                     <p>📈 Total: 983</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • la contaminación del río está aumentando.: 103<br>• necesitamos más acceso a internet en la zona.: 101<br>• faltan médicos en el centro de salud.: 97<br>• las basuras no se recogen a tiempo.: 96<br>• no hay suficientes escuelas públicas.: 94                 </div>                 </div>`)[0];
+                popup_ae7f228d76fb4d1aa771e1e6c6d44858.setContent(html_d3f547b305f3918f0e6ec0c50a9424a2);
+            
+        
+
+        marker_836dc0d96ff3717cc62dbbfad3ceb46e.bindPopup(popup_ae7f228d76fb4d1aa771e1e6c6d44858)
+        ;
+
+        
+    
+    
+            marker_836dc0d96ff3717cc62dbbfad3ceb46e.bindTooltip(
+                `<div>
+                     🔴 Pereira (983 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_836dc0d96ff3717cc62dbbfad3ceb46e.setIcon(icon_a8f1b91c6a1ab0ab2c45673830c4baf9);
+            
+    
+            var marker_efc2d2e29b76efd802ac998b50f56c18 = L.marker(
+                [11.2408, -74.2099],
+                {
+}
+            ).addTo(marker_cluster_f526c5c74ae3bb729d7361884d3686a6);
+        
+    
+            var icon_7903dfec45c41ce196f2d47c3c50d75b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d92436806093e39bf37f7005759aab0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4c852b63d2d71aaf501a47a902f1bf74 = $(`<div id="html_4c852b63d2d71aaf501a47a902f1bf74" style="width: 100.0%; height: 100.0%;">                 <div style='width: 300px'>                     <h3>🏙️ Santa Marta</h3>                     <hr>                     <p><strong>📊 Resumen:</strong></p>                     <p>🔴 Graves: 504</p>                     <p>🟠 Moderados: 0</p>                     <p>📈 Total: 991</p>                     <hr>                     <p><strong>🔝 Principales problemas:</strong></p>                     • faltan médicos en el centro de salud.: 117<br>• las calles están muy oscuras y peligrosas.: 102<br>• falta agua potable en varias casas.: 96<br>• queremos más presencia policial.: 94<br>• la contaminación del río está aumentando.: 90                 </div>                 </div>`)[0];
+                popup_4d92436806093e39bf37f7005759aab0.setContent(html_4c852b63d2d71aaf501a47a902f1bf74);
+            
+        
+
+        marker_efc2d2e29b76efd802ac998b50f56c18.bindPopup(popup_4d92436806093e39bf37f7005759aab0)
+        ;
+
+        
+    
+    
+            marker_efc2d2e29b76efd802ac998b50f56c18.bindTooltip(
+                `<div>
+                     🔴 Santa Marta (991 reportes)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_efc2d2e29b76efd802ac998b50f56c18.setIcon(icon_7903dfec45c41ce196f2d47c3c50d75b);
+            
+    
+            marker_cluster_f526c5c74ae3bb729d7361884d3686a6.addTo(map_16f84d4e43b1d3763168c85ad1bb2e56);
+        
+</script>
+</html>

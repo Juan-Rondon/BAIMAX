@@ -1,0 +1,30 @@
+{
+  "total_registros": 10030,
+  "problemas_unicos": 20,
+  "ciudades_analizadas": 14,
+  "categorias_problemas": 4,
+  "niveles_urgencia": 3,
+  "registros_por_categoria": {
+    "Salud": 2545,
+    "Seguridad": 2540,
+    "Educación": 2509,
+    "Medio Ambiente": 2436
+  },
+  "registros_por_urgencia": {
+    "No urgente": 5022,
+    "Urgente": 4985,
+    "Moderada": 23
+  },
+  "ciudades_mas_reportes": {
+    "Bogotá": 1028,
+    "Medellín": 1014,
+    "Manizales": 1013,
+    "Santa Marta": 991,
+    "Cartagena": 991,
+    "Bucaramanga": 985,
+    "Pereira": 983,
+    "Cali": 971,
+    "Cúcuta": 966,
+    "Barranquilla": 949
+  }
+}

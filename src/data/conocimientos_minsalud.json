@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "fecha_actualizacion": "2025-10-22T12:33:28.342882",
+    "fuente": "Ministerio de Salud y Protección Social - Colombia",
+    "total_registros": 12,
+    "version": "1.0"
+  },
+  "alertas_activas": [
+    {
+      "titulo": "Alerta por incremento de casos de dengue en región Caribe",
+      "fecha": "2025-10-15",
+      "descripcion": "Se observa incremento del 35% en casos de dengue en departamentos de Atlántico, Bolívar y Magdalena.",
+      "gravedad": "ALTA",
+      "departamentos_afectados": [
+        "Atlántico",
+        "Bolívar",
+        "Magdalena"
+      ],
+      "recomendaciones": [
+        "Eliminar criaderos de mosquitos",
+        "Usar repelente",
+        "Consultar médico ante fiebre",
+        "Mantener patios limpios"
+      ]
+    },
+    {
+      "titulo": "Casos de infección respiratoria aguda en Bogotá",
+      "fecha": "2025-10-18",
+      "descripcion": "Incremento de IRA en población infantil durante cambio de temporada.",
+      "gravedad": "MODERADA",
+      "departamentos_afectados": [
+        "Cundinamarca"
+      ],
+      "recomendaciones": [
+        "Vacunación completa",
+        "Lavado frecuente de manos",
+        "Evitar aglomeraciones",
+        "Consulta médica temprana"
+      ]
+    },
+    {
+      "titulo": "Brote de enfermedad diarreica aguda en La Guajira",
+      "fecha": "2025-10-12",
+      "descripcion": "Casos de EDA asociados a consumo de agua no tratada.",
+      "gravedad": "ALTA",
+      "departamentos_afectados": [
+        "La Guajira"
+      ],
+      "recomendaciones": [
+        "Hervir agua antes de consumir",
+        "Lavado de manos con jabón",
+        "Cocinar bien los alimentos",
+        "Acudir inmediatamente al centro de salud"
+      ]
+    }
+  ],
+  "protocolos_atencion": [
+    {
+      "nombre": "Protocolo de atención COVID-19",
+      "categoria": "Enfermedades respiratorias",
+      "sintomas_clave": [
+        "fiebre",
+        "tos seca",
+        "fatiga",
+        "dificultad respiratoria"
+      ],
+      "pasos_atencion": [
+        "Triaje inicial y aislamiento",
+        "Toma de signos vitales",
+        "Evaluación de síntomas",
+        "Prueba diagnóstica si aplica",
+        "Tratamiento sintomático",
+        "Seguimiento ambulatorio u hospitalización"
+      ],
+      "nivel_atencion": "Primario y secundario",
+      "poblacion_objetivo": "Población general"
+    },
+    {
+      "nombre": "Protocolo de atención dengue",
+      "categoria": "Enfermedades tropicales",
+      "sintomas_clave": [
+        "fiebre alta",
+        "dolor cabeza",
+        "dolor muscular",
+        "erupción"
+      ],
+      "pasos_atencion": [
+        "Identificación de signos de alarma",
+        "Clasificación del caso",
+        "Manejo de fluidos",
+        "Monitoreo de plaquetas",
+        "Vigilancia de complicaciones"
+      ],
+      "nivel_atencion": "Todos los niveles",
+      "poblacion_objetivo": "Zonas endémicas"
+    },
+    {
+      "nombre": "Protocolo de salud mental en emergencias",
+      "categoria": "Salud mental",
+      "sintomas_clave": [
+        "ansiedad severa",
+        "depresión",
+        "ideación suicida",
+        "crisis psicótica"
+      ],
+      "pasos_atencion": [
+        "Evaluación del riesgo inmediato",
+        "Intervención en crisis",
+        "Estabilización emocional",
+        "Derivación a especialista",
+        "Seguimiento programado"
+      ],
+      "nivel_atencion": "Primario y especializado",
+      "poblacion_objetivo": "Población en crisis"
+    }
+  ],
+  "estadisticas_nacionales": [
+    {
+      "indicador": "Mortalidad infantil",
+      "valor": 12.8,
+      "unidad": "por cada 1000 nacidos vivos",
+      "año": 2024,
+      "departamento": "Nacional",
+      "tendencia": "Decremental"
+    },
+    {
+      "indicador": "Cobertura vacunación infantil",
+      "valor": 89.5,
+      "unidad": "porcentaje",
+      "año": 2024,
+      "departamento": "Nacional",
+      "tendencia": "Estable"
+    },
+    {
+      "indicador": "Casos dengue",
+      "valor": 89420,
+      "unidad": "casos reportados",
+      "año": 2024,
+      "departamento": "Nacional",
+      "tendencia": "Incremental"
+    },
+    {
+      "indicador": "Atención prenatal",
+      "valor": 78.2,
+      "unidad": "porcentaje cobertura",
+      "año": 2024,
+      "departamento": "Nacional",
+      "tendencia": "Incremental"
+    }
+  ],
+  "enfermedades_prevalentes": [
+    {
+      "nombre": "Dengue",
+      "tipo": "Enfermedad viral",
+      "vector": "Aedes aegypti",
+      "sintomas_principales": [
+        "Fiebre alta súbita",
+        "Dolor de cabeza intenso",
+        "Dolor retroocular",
+        "Dolores musculares y articulares",
+        "Erupción cutánea"
+      ],
+      "signos_alarma": [
+        "Dolor abdominal intenso",
+        "Vómitos persistentes",
+        "Sangrado de mucosas",
+        "Dificultad respiratoria"
+      ],
+      "tratamiento": "Sintomático, hidratación, reposo",
+      "prevencion": [
+        "Eliminar criaderos de mosquitos",
+        "Usar repelentes",
+        "Mantener patios limpios",
+        "Almacenar agua correctamente"
+      ],
+      "zonas_riesgo": [
+        "Costa Caribe",
+        "Pacífico",
+        "Valles interandinos"
+      ]
+    },
+    {
+      "nombre": "Infección Respiratoria Aguda (IRA)",
+      "tipo": "Enfermedad respiratoria",
+      "agente": "Viral o bacteriano",
+      "sintomas_principales": [
+        "Tos",
+        "Fiebre",
+        "Dificultad para respirar",
+        "Dolor de garganta",
+        "Congestión nasal"
+      ],
+      "signos_alarma": [
+        "Respiración rápida",
+        "Tiraje intercostal",
+        "Fiebre alta persistente",
+        "Rechazo a la alimentación"
+      ],
+      "tratamiento": "Sintomático, antibióticos si es bacteriano",
+      "prevencion": [
+        "Vacunación completa",
+        "Lavado de manos",
+        "Evitar aglomeraciones",
+        "Lactancia materna"
+      ],
+      "zonas_riesgo": [
+        "Zonas de clima frío",
+        "Áreas urbanas densas"
+      ]
+    }
+  ],
+  "respuestas_automaticas": {
+    "alertas_actuales": "🚨 **Alertas epidemiológicas activas:**\n\n• Alerta por incremento de casos de dengue en región Caribe (ALTA)\n• Casos de infección respiratoria aguda en Bogotá (MODERADA)\n• Brote de enfermedad diarreica aguda en La Guajira (ALTA)\n\n📞 Para más información: Línea 123 - Emergencias",
+    "sintomas_dengue": "🩺 **Dengue**\n\n**Síntomas principales:**\n• Fiebre alta súbita\n• Dolor de cabeza intenso\n• Dolor retroocular\n• Dolores musculares y articulares\n• Erupción cutánea\n\n**⚠️ Signos de alarma:**\n• Dolor abdominal intenso\n• Vómitos persistentes\n• Sangrado de mucosas\n• Dificultad respiratoria\n\n**🏥 Tratamiento:** Sintomático, hidratación, reposo\n\n**📞 Si presentas signos de alarma, acude inmediatamente al servicio de urgencias.**",
+    "sintomas_infección respiratoria aguda (ira)": "🩺 **Infección Respiratoria Aguda (IRA)**\n\n**Síntomas principales:**\n• Tos\n• Fiebre\n• Dificultad para respirar\n• Dolor de garganta\n• Congestión nasal\n\n**⚠️ Signos de alarma:**\n• Respiración rápida\n• Tiraje intercostal\n• Fiebre alta persistente\n• Rechazo a la alimentación\n\n**🏥 Tratamiento:** Sintomático, antibióticos si es bacteriano\n\n**📞 Si presentas signos de alarma, acude inmediatamente al servicio de urgencias.**"
+  }
+}

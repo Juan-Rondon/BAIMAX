@@ -1,0 +1,101 @@
+ID,Nombre,Edad,Género,Ciudad,Comentario,Nivel_gravedad,Frecuencia_similar,Personas_afectadas,Categoría del problema,Nivel de urgencia,Fecha del reporte,Acceso a internet,Atención previa del gobierno,Zona rural
+1,Jorge,23.0,Otro,Manizales,las calles están muy oscuras y peligrosas.,GRAVE,10.0,10.0,Salud,Urgente,2023-08-11,0,1,0
+7,Ana,,M,Medellín,la contaminación del río está aumentando.,MODERADO,10.0,10.0,Salud,No urgente,2023-07-20,0,1,0
+10,María,76.0,F,Cali,faltan médicos en el centro de salud.,MODERADO,10.0,10.0,Salud,No urgente,2024-09-21,0,1,1
+13,Laura,46.0,Otro,Medellín,falta agua potable en varias casas.,GRAVE,10.0,10.0,Salud,Urgente,2023-11-08,1,0,0
+16,Camilo,77.0,Otro,Manizales,faltan médicos en el centro de salud.,GRAVE,10.0,10.0,Salud,Urgente,2023-09-01,0,1,1
+17,Valentina,22.0,F,Santa Marta,necesitamos más acceso a internet en la zona.,MODERADO,10.0,10.0,Salud,No urgente,2024-03-15,1,1,1
+18,Juan,71.0,Otro,Barranquilla,la contaminación del río está aumentando.,MODERADO,10.0,10.0,Salud,No urgente,2023-12-21,0,1,0
+20,Juan,52.0,M,Medellín,queremos más presencia policial.,GRAVE,10.0,10.0,Salud,Urgente,2024-06-18,0,0,1
+21,Jorge,59.0,M,Cali,faltan médicos en el centro de salud.,GRAVE,10.0,10.0,Salud,Urgente,2024-07-21,0,0,1
+31,Ana,47.0,M,Medellín,queremos más presencia policial.,GRAVE,10.0,10.0,Salud,Urgente,2024-11-24,1,0,1
+42,Ana,19.0,Otro,Cúcuta,las calles están muy oscuras y peligrosas.,MODERADO,10.0,10.0,Salud,No urgente,2024-08-26,0,0,1
+48,Pedro,48.0,Otro,Manizales,faltan médicos en el centro de salud.,MODERADO,10.0,10.0,Salud,No urgente,2024-07-13,1,1,1
+49,Laura,32.0,M,Cúcuta,las basuras no se recogen a tiempo.,GRAVE,10.0,10.0,Salud,Urgente,2024-04-26,0,0,0
+55,Sofía,42.0,F,Bogotá,necesitamos más acceso a internet en la zona.,GRAVE,10.0,10.0,Salud,Urgente,2024-08-12,1,0,0
+57,Jorge,53.0,F,Pereira,necesitamos más acceso a internet en la zona.,GRAVE,10.0,10.0,Salud,Urgente,2023-12-03,1,1,0
+61,Pedro,42.0,Otro,Medellín,necesitamos más acceso a internet en la zona.,MODERADO,10.0,10.0,Salud,No urgente,2023-10-24,0,1,0
+62,Valentina,23.0,M,Cartagena,las basuras no se recogen a tiempo.,MODERADO,10.0,10.0,Salud,No urgente,2024-08-28,1,0,0
+73,Sofía,32.0,Otro,Cali,la contaminación del río está aumentando.,GRAVE,10.0,10.0,Salud,Urgente,2024-10-07,0,0,1
+84,Laura,76.0,F,Santa Marta,la contaminación del río está aumentando.,GRAVE,10.0,10.0,Salud,Urgente,2024-09-03,1,1,0
+100,Sofía,,F,Cartagena,queremos más presencia policial.,GRAVE,10.0,10.0,Salud,Urgente,2024-08-17,0,0,1
+106,Ana,19.0,F,Medellín,faltan médicos en el centro de salud.,GRAVE,10.0,10.0,Salud,Urgente,2023-09-07,1,1,1
+110,Juan,27.0,M,Cúcuta,faltan médicos en el centro de salud.,GRAVE,10.0,10.0,Salud,Urgente,2023-01-12,1,0,0
+112,Juan,65.0,Otro,Pereira,hay problemas con la recolección de basura.,GRAVE,10.0,10.0,Salud,Urgente,2023-04-08,1,0,1
+115,Camilo,25.0,Otro,Bogotá,hay problemas con la recolección de basura.,GRAVE,10.0,10.0,Salud,Urgente,2024-04-01,1,1,1
+138,Carlos,28.0,M,Cúcuta,no tenemos centros culturales ni bibliotecas.,GRAVE,10.0,10.0,Salud,Urgente,2023-08-03,1,0,1
+139,Carlos,55.0,M,Medellín,las basuras no se recogen a tiempo.,MODERADO,10.0,10.0,Salud,No urgente,2024-05-28,1,1,1
+145,Valentina,,Otro,Pereira,la contaminación del río está aumentando.,GRAVE,10.0,10.0,Salud,Urgente,2024-08-11,0,1,0
+147,Valentina,43.0,F,Barranquilla,no hay suficientes escuelas públicas.,MODERADO,10.0,10.0,Salud,No urgente,2024-07-25,1,1,1
+152,Sofía,52.0,M,Manizales,falta agua potable en varias casas.,MODERADO,10.0,10.0,Salud,No urgente,2023-06-26,1,1,0
+164,Juan,21.0,Otro,Pereira,las basuras no se recogen a tiempo.,GRAVE,10.0,10.0,Salud,Urgente,2024-01-18,1,0,0
+170,Ana,21.0,Otro,Pereira,las basuras no se recogen a tiempo.,MODERADO,10.0,10.0,Salud,No urgente,2024-05-04,0,1,1
+176,Ana,54.0,M,Manizales,falta agua potable en varias casas.,GRAVE,10.0,10.0,Salud,Urgente,2024-07-15,1,0,0
+178,Camilo,45.0,M,Cali,queremos más presencia policial.,GRAVE,10.0,10.0,Salud,Urgente,2023-03-17,1,1,0
+215,María,28.0,F,Medellín,no hay suficientes escuelas públicas.,MODERADO,10.0,10.0,Salud,No urgente,2023-07-25,1,0,0
+219,María,22.0,F,Cartagena,las calles están muy oscuras y peligrosas.,MODERADO,10.0,10.0,Salud,No urgente,2023-08-13,0,0,1
+227,Jorge,34.0,Otro,Bucaramanga,no tenemos centros culturales ni bibliotecas.,GRAVE,10.0,10.0,Salud,Urgente,2024-02-06,0,0,0
+245,Sofía,,F,Bucaramanga,no hay suficientes escuelas públicas.,GRAVE,10.0,10.0,Salud,Urgente,2024-03-04,1,1,1
+250,Laura,76.0,F,Santa Marta,no tenemos centros culturales ni bibliotecas.,MODERADO,10.0,10.0,Salud,No urgente,2023-04-03,1,0,1
+251,Valentina,62.0,M,Cúcuta,las calles están muy oscuras y peligrosas.,GRAVE,10.0,10.0,Salud,Urgente,2023-09-01,0,1,0
+255,Laura,78.0,F,Bogotá,no hay suficientes escuelas públicas.,MODERADO,10.0,10.0,Salud,No urgente,2023-11-18,1,1,1
+265,Valentina,78.0,Otro,Cartagena,hay problemas con la recolección de basura.,GRAVE,10.0,10.0,Salud,Urgente,2023-09-21,0,1,1
+267,Carlos,64.0,M,Santa Marta,hay problemas con la recolección de basura.,GRAVE,10.0,10.0,Salud,Urgente,2024-08-30,0,1,1
+271,Pedro,23.0,Otro,Medellín,no tenemos centros culturales ni bibliotecas.,MODERADO,10.0,10.0,Salud,No urgente,2023-02-24,1,0,0
+272,Ana,23.0,M,Cartagena,necesitamos más acceso a internet en la zona.,MODERADO,10.0,10.0,Salud,No urgente,2023-05-07,1,0,1
+293,Camilo,29.0,F,Manizales,falta agua potable en varias casas.,MODERADO,10.0,10.0,Salud,No urgente,2024-11-02,0,0,0
+312,Valentina,65.0,F,Santa Marta,queremos más presencia policial.,GRAVE,10.0,10.0,Salud,Urgente,2023-06-11,0,1,1
+321,Laura,77.0,F,Bogotá,hay problemas con la recolección de basura.,MODERADO,10.0,10.0,Salud,No urgente,2024-01-14,0,1,1
+329,María,17.0,F,Barranquilla,las basuras no se recogen a tiempo.,GRAVE,10.0,10.0,Salud,Urgente,2024-04-02,0,0,0
+333,Jorge,,,Cartagena,queremos más presencia policial.,MODERADO,10.0,10.0,Salud,No urgente,2024-05-13,1,0,1
+344,Pedro,71.0,Otro,Medellín,no hay suficientes escuelas públicas.,MODERADO,10.0,10.0,Salud,No urgente,2023-12-14,1,1,0
+346,María,20.0,,Cúcuta,no tenemos centros culturales ni bibliotecas.,GRAVE,10.0,10.0,Salud,Urgente,2024-10-27,1,1,0
+348,Juan,76.0,M,Cali,no tenemos centros culturales ni bibliotecas.,MODERADO,10.0,10.0,Salud,No urgente,2024-09-23,0,0,1
+358,Pedro,18.0,F,Cali,queremos más presencia policial.,GRAVE,10.0,10.0,Salud,Urgente,2023-04-06,1,1,1
+372,María,18.0,M,Bogotá,hay problemas con la recolección de basura.,GRAVE,10.0,10.0,Salud,Urgente,2024-05-28,0,0,1
+382,Laura,62.0,F,Barranquilla,faltan médicos en el centro de salud.,MODERADO,10.0,10.0,Salud,No urgente,2023-10-02,1,0,1
+387,Sofía,37.0,M,Barranquilla,faltan médicos en el centro de salud.,GRAVE,10.0,10.0,Salud,Urgente,2023-11-06,0,1,0
+393,Juan,57.0,Otro,Bucaramanga,falta agua potable en varias casas.,GRAVE,10.0,10.0,Salud,Urgente,2023-04-25,1,1,0
+420,Carlos,43.0,F,Cúcuta,falta agua potable en varias casas.,MODERADO,10.0,10.0,Salud,No urgente,2023-09-20,1,1,0
+426,Camilo,50.0,Otro,Cartagena,no tenemos centros culturales ni bibliotecas.,GRAVE,10.0,10.0,Salud,Urgente,2024-08-14,1,0,0
+431,Sofía,26.0,F,Cali,hay problemas con la recolección de basura.,GRAVE,10.0,10.0,Salud,Urgente,2023-09-26,0,1,0
+433,Carlos,31.0,F,Barranquilla,queremos más presencia policial.,MODERADO,10.0,10.0,Salud,No urgente,2024-07-01,0,1,1
+437,María,22.0,M,Barranquilla,queremos más presencia policial.,MODERADO,10.0,10.0,Salud,No urgente,2023-03-20,0,1,0
+472,Laura,24.0,M,Bogotá,necesitamos más acceso a internet en la zona.,MODERADO,10.0,10.0,Salud,No urgente,2024-11-24,1,1,0
+481,Carlos,35.0,M,Cali,necesitamos más acceso a internet en la zona.,MODERADO,10.0,10.0,Salud,No urgente,2023-11-16,0,0,1
+489,María,48.0,F,Barranquilla,necesitamos más acceso a internet en la zona.,MODERADO,10.0,10.0,Salud,No urgente,2023-06-30,1,1,1
+490,Camilo,36.0,F,Pereira,las basuras no se recogen a tiempo.,GRAVE,10.0,10.0,Salud,Urgente,2023-12-17,1,1,0
+516,Pedro,27.0,M,Cartagena,falta agua potable en varias casas.,MODERADO,10.0,10.0,Salud,No urgente,2024-01-01,1,0,0
+554,Pedro,63.0,F,Cúcuta,las basuras no se recogen a tiempo.,MODERADO,10.0,10.0,Salud,No urgente,2023-02-14,0,1,1
+564,María,19.0,M,Medellín,la contaminación del río está aumentando.,MODERADO,10.0,10.0,Salud,No urgente,2024-01-03,0,0,0
+566,María,26.0,Otro,Cúcuta,falta agua potable en varias casas.,GRAVE,10.0,10.0,Salud,Urgente,2023-10-06,0,1,1
+581,Ana,16.0,Otro,Cartagena,hay problemas con la recolección de basura.,GRAVE,10.0,10.0,Salud,Urgente,2023-05-30,0,1,0
+598,Camilo,50.0,M,Cali,las calles están muy oscuras y peligrosas.,MODERADO,10.0,10.0,Salud,No urgente,2023-09-25,0,0,0
+630,Jorge,47.0,F,Cartagena,la contaminación del río está aumentando.,GRAVE,10.0,10.0,Salud,Urgente,2024-11-14,0,0,0
+638,Jorge,71.0,M,Manizales,las basuras no se recogen a tiempo.,GRAVE,10.0,10.0,Salud,Urgente,2023-12-16,1,0,0
+681,Camilo,58.0,Otro,Manizales,no hay suficientes escuelas públicas.,MODERADO,10.0,10.0,Salud,No urgente,2024-09-24,1,0,0
+725,Ana,57.0,F,Manizales,no tenemos centros culturales ni bibliotecas.,MODERADO,10.0,10.0,Salud,No urgente,2023-05-04,1,0,0
+727,Juan,43.0,Otro,Bucaramanga,necesitamos más acceso a internet en la zona.,MODERADO,10.0,10.0,Salud,No urgente,2024-11-21,1,1,0
+736,Jorge,70.0,Otro,Santa Marta,no hay suficientes escuelas públicas.,MODERADO,10.0,10.0,Salud,No urgente,2024-09-11,0,0,1
+769,Laura,73.0,Otro,Medellín,las calles están muy oscuras y peligrosas.,GRAVE,10.0,10.0,Salud,Urgente,2023-01-30,1,1,1
+872,Carlos,43.0,M,Barranquilla,no hay suficientes escuelas públicas.,GRAVE,10.0,10.0,Salud,Urgente,2023-08-02,1,0,0
+894,Sofía,79.0,M,Cali,las calles están muy oscuras y peligrosas.,MODERADO,10.0,10.0,Salud,No urgente,2023-05-09,1,0,0
+901,Jorge,57.0,F,Santa Marta,hay problemas con la recolección de basura.,GRAVE,10.0,10.0,Salud,Urgente,2023-03-30,0,1,0
+946,Juan,51.0,M,Bucaramanga,las calles están muy oscuras y peligrosas.,MODERADO,10.0,10.0,Salud,No urgente,2024-05-07,1,1,0
+961,Laura,74.0,F,Pereira,queremos más presencia policial.,MODERADO,10.0,10.0,Salud,No urgente,2023-05-10,0,0,0
+964,Valentina,29.0,F,Cartagena,no tenemos centros culturales ni bibliotecas.,GRAVE,10.0,10.0,Salud,Urgente,2023-08-23,1,1,1
+1031,Carlos,25.0,F,Bogotá,las calles están muy oscuras y peligrosas.,GRAVE,10.0,10.0,Salud,Urgente,2023-06-29,1,0,1
+1034,Carlos,80.0,F,Manizales,la contaminación del río está aumentando.,GRAVE,10.0,10.0,Salud,Urgente,2023-06-15,1,1,1
+1084,Sofía,43.0,Otro,Medellín,las basuras no se recogen a tiempo.,MODERADO,10.0,10.0,Salud,No urgente,2023-06-29,1,1,1
+1146,Valentina,23.0,Otro,Medellín,falta agua potable en varias casas.,GRAVE,10.0,10.0,Salud,Urgente,2023-07-19,1,0,0
+1190,Camilo,41.0,Otro,Bucaramanga,la contaminación del río está aumentando.,MODERADO,10.0,10.0,Salud,No urgente,2023-06-29,1,1,1
+1243,Sofía,,Otro,Pereira,no tenemos centros culturales ni bibliotecas.,GRAVE,10.0,10.0,Salud,Urgente,2024-04-10,0,0,0
+1244,Pedro,69.0,F,Pereira,las calles están muy oscuras y peligrosas.,GRAVE,10.0,10.0,Salud,Urgente,2024-05-23,1,1,1
+1255,Juan,63.0,F,Cartagena,no hay suficientes escuelas públicas.,GRAVE,10.0,10.0,Salud,Urgente,2024-07-31,1,1,1
+1263,Valentina,31.0,F,Santa Marta,faltan médicos en el centro de salud.,GRAVE,10.0,10.0,Salud,Urgente,2024-08-09,0,1,1
+1311,Ana,36.0,Otro,Bogotá,no hay suficientes escuelas públicas.,GRAVE,10.0,10.0,Salud,Urgente,2023-04-20,0,0,0
+1404,Carlos,61.0,F,Santa Marta,faltan médicos en el centro de salud.,MODERADO,10.0,10.0,Salud,No urgente,2023-03-17,0,0,1
+1613,Camilo,26.0,F,Manizales,necesitamos más acceso a internet en la zona.,GRAVE,10.0,10.0,Salud,Urgente,2023-11-21,0,1,1
+1721,Jorge,78.0,M,Barranquilla,falta agua potable en varias casas.,GRAVE,10.0,10.0,Salud,Urgente,2023-06-25,1,1,1
+1852,Pedro,61.0,F,Bucaramanga,la contaminación del río está aumentando.,GRAVE,10.0,10.0,Salud,Urgente,2023-03-11,0,1,1
+2359,Pedro,37.0,Otro,Barranquilla,hay problemas con la recolección de basura.,MODERADO,10.0,10.0,Salud,No urgente,2024-08-14,0,0,0
